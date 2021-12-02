@@ -186,7 +186,8 @@ nav {
       left: -100%;
       text-align: center;
       transition: all .5s;
-      background: white; } }
+      background: white;
+      border-radius: 10px; } }
   nav .left a {
     transition: all 0.2s ease-in !important;
     font-size: 16px;
@@ -282,6 +283,9 @@ header {
       animation: smooth-jumping 3s infinite;
       width: 100%;
       min-width: 100%; }
+      @media (max-width: 500px) {
+        header .container-fluid .row .col-lg-6 img {
+          animation: smooth-jumping 4.5s infinite; } }
 
 .about .container-fluid .row {
   align-items: center; }

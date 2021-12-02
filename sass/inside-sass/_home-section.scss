@@ -38,6 +38,7 @@ nav {
 			text-align: center;
 			transition: all .5s;
 			background: rgba($color: #fff, $alpha: 1);
+			border-radius: 10px;
 		}
 		a {
 			transition: $transition;
@@ -162,6 +163,9 @@ header {
 					animation: smooth-jumping 3s infinite;
 					width: 100%;
 					min-width: 100%;
+					@include respond(phone) {
+						animation: smooth-jumping 4.5s infinite;
+					}
 				}
 			}
 		}
