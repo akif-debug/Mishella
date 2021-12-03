@@ -286,7 +286,7 @@ header {
       min-width: 100%; }
       @media (max-width: 500px) {
         header .container-fluid .row .col-lg-6 img {
-          animation: smooth-jumping 4.5s infinite; } }
+          animation: smooth-jumping 3.35s infinite; } }
 
 .about .container-fluid .row {
   align-items: center; }

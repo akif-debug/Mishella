@@ -10,7 +10,6 @@ nav {
 	align-items: center;
 	transition: all .5s;
 	justify-content: space-between;
-	// background: rgba($color: #fff, $alpha: 1);
 	@include respond(phone) {
 		padding: 0 1%;
 		height: 50px;
@@ -165,7 +164,7 @@ header {
 					width: 100%;
 					min-width: 100%;
 					@include respond(phone) {
-						animation: smooth-jumping 4.5s infinite;
+						animation: smooth-jumping 3.35s infinite;
 					}
 				}
 			}
